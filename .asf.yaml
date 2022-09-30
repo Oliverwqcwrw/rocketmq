@@ -27,7 +27,7 @@ github:
     # Enable squash button
     squash: true
     # Disable merge button
-    merge: true
+    merge: false
     # Enable rebase button
     rebase: true
   protected_branches:
@@ -42,3 +42,4 @@ github:
           - misspell-check
           - check-license
           - maven-compile (ubuntu-18.04, JDK-8)
+          - bazel-compile (ubuntu-20.04)
