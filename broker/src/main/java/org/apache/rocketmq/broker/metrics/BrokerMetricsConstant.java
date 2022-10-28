@@ -17,16 +17,12 @@
 package org.apache.rocketmq.broker.metrics;
 
 public class BrokerMetricsConstant {
-    public static final String SLS_OTEL_PROJECT_HEADER_KEY = "x-sls-otel-project";
-    public static final String SLS_OTEL_INSTANCE_ID_KEY = "x-sls-otel-instance-id";
-    public static final String SLS_OTEL_AK_ID_KEY = "x-sls-otel-ak-id";
-    public static final String SLS_OTEL_AK_SECRET_KEY = "x-sls-otel-ak-secret";
     public static final String OPEN_TELEMETRY_METER_NAME = "broker-meter";
     public static final String GAUGE_BROKER_PERMISSION = "rocketmq_broker_permission";
 
     public static final String LABEL_CLUSTER_NAME = "cluster";
     public static final String LABEL_NODE_TYPE = "node_type";
-    public static final String BROKER_NODE_TYPE = "broker";
+    public static final String NODE_TYPE_BROKER = "broker";
     public static final String LABEL_NODE_ID = "node_id";
     public static final String LABEL_AGGREGATION = "aggregation";
     public static final String AGGREGATION_DELTA = "delta";
